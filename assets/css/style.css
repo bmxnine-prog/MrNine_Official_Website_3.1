@@ -18,7 +18,6 @@
 
 .site-footer a{transition:color .2s ease}.site-footer a:hover{color:var(--text)}
 .site-header .brand-name{font-size:13px}
-.project-page .site-header .brand::after{content:"MR. NINE ENGRAVING";font-size:13px;letter-spacing:.23em;font-weight:600;white-space:nowrap}
 .project-bottom-nav{display:flex;align-items:center;justify-content:center;gap:clamp(28px,5vw,72px);padding-block:24px;border-top:1px solid var(--line)}
 .project-bottom-nav a{color:var(--gold);font-size:12px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;transition:color .2s}
 .project-bottom-nav a:hover{color:var(--text)}
@@ -71,7 +70,11 @@
 }
 
 @media(max-width:430px){
-  .site-header .brand-name{display:none}
+  .site-header{padding-inline:14px}
+  .site-header .brand{gap:8px}
+  .site-header .brand-img{width:38px;height:38px}
+  .site-header .brand-name{display:block;font-size:9px;letter-spacing:.16em}
+  .site-header .menu-button{font-size:10px;letter-spacing:.14em}
 }
 /* 左側小標題 */
 .intro-grid .eyebrow {
