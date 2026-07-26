@@ -24,6 +24,10 @@
   height: auto;
   display: block;
 }
+.footer-brand .footer-logo-image {
+  width: 38px;
+  height: auto;
+}
 /* 左側小標題 */
 .intro-grid .eyebrow {
   font-size: 20px;
