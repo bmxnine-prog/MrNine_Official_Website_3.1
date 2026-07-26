@@ -1,0 +1,2 @@
+﻿(()=>{const nav=document.querySelector('.site-nav');if(!nav)return;const zh=/\/zh\//.test(location.pathname.replace(/\\/g,'/'));const page=location.pathname.split('/').pop()||'index.html';let link=nav.querySelector('.language-switch');if(!link){link=document.createElement('a');link.className='language-switch';link.href=zh?`../${page}`:`zh/${page}`;link.textContent=zh?'EN':'中文';link.setAttribute('aria-label',zh?'Switch to English':'切換至繁體中文');nav.append(link)}link.addEventListener('click',()=>localStorage.setItem('mr-nine-language',zh?'en':'zh'))})();
+
