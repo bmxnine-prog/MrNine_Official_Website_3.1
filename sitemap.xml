@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mr-nine-engraving.com/index.html</loc>
+    <loc>https://mr-nine-engraving.com/</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -10,19 +10,19 @@
     <loc>https://mr-nine-engraving.com/about.html</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mr-nine-engraving.com/commission.html</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/portfolio.html</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://mr-nine-engraving.com/commission.html</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/project-bell-and-rose.html</loc>
@@ -91,7 +91,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mr-nine-engraving.com/zh/index.html</loc>
+    <loc>https://mr-nine-engraving.com/zh/</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -100,19 +100,19 @@
     <loc>https://mr-nine-engraving.com/zh/about.html</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mr-nine-engraving.com/zh/commission.html</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/zh/portfolio.html</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://mr-nine-engraving.com/zh/commission.html</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/zh/project-bell-and-rose.html</loc>
