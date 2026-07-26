@@ -291,3 +291,68 @@ html[lang="zh-Hant"] .page-hero>.page-title{font-family:"Noto Serif TC","Songti 
   .page-hero>.page-title,
   html[lang="zh-Hant"] .page-hero>.page-title{font-size:25px}
 }
+
+/* Mobile navigation: keep Connect usable inside the full-screen menu */
+@media(max-width:900px){
+  .site-nav{
+    justify-content:flex-start;
+    gap:30px;
+    padding:clamp(110px,16vh,150px) 24px 48px;
+    overflow-y:auto;
+  }
+  .site-nav .dropdown{
+    width:min(260px,100%);
+  }
+  .site-nav .dropdown-trigger{
+    width:100%;
+    justify-content:center;
+    padding:8px 16px;
+    border:0;
+    border-radius:0;
+    background:transparent;
+    color:var(--text);
+    font:inherit;
+    font-size:12px;
+    letter-spacing:.2em;
+    text-transform:uppercase;
+    -webkit-appearance:none;
+    appearance:none;
+  }
+  .site-nav .dropdown-trigger span{
+    color:var(--gold);
+    transition:transform .2s ease;
+  }
+  .site-nav .dropdown.open .dropdown-trigger span{
+    transform:rotate(180deg);
+  }
+  .site-nav .dropdown-menu,
+  .site-nav .dropdown.open .dropdown-menu,
+  .site-nav .dropdown:focus-within .dropdown-menu{
+    position:static;
+    width:100%;
+    min-width:0;
+    margin-top:12px;
+    padding:8px 0 0;
+    border:0;
+    background:transparent;
+    box-shadow:none;
+    grid-template-columns:1fr;
+    gap:4px;
+  }
+  .site-nav .dropdown:not(.open) .dropdown-menu{
+    display:none;
+  }
+  .site-nav .dropdown.open .dropdown-menu{
+    display:grid;
+  }
+  .site-nav .dropdown-menu a{
+    display:block;
+    width:100%;
+    padding:10px 12px;
+    text-align:center;
+    white-space:normal;
+  }
+  .site-nav .language-switch{
+    margin:0;
+  }
+}
