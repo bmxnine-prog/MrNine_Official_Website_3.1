@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://mr-nine-engraving.com/sitemap.xml

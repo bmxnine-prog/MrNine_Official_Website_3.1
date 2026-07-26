@@ -25,7 +25,7 @@
 
 請在所有 HTML 搜尋：
 
-your-email@example.com
+bmxnine@gmail.com
 
 改成你的正式聯絡信箱。
 
