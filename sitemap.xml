@@ -1,213 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://mr-nine-engraving.com/index.html</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
   <url>
     <loc>https://mr-nine-engraving.com/about.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/about.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/about.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/about.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/commission.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/commission.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/commission.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/commission.html"/>
-  </url>
-  <url>
-    <loc>https://mr-nine-engraving.com/index.html</loc>
-    <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/index.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/index.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/index.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/portfolio.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/portfolio.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/portfolio.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/portfolio.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/project-bell-and-rose.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/project-bell-and-rose.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/project-bell-and-rose.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/project-bell-and-rose.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/project-breitling-cloud.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/project-breitling-cloud.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/project-breitling-cloud.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/project-breitling-cloud.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/project-daytona.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/project-daytona.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/project-daytona.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/project-daytona.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/project-dragon-gate-ascension.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/project-dragon-gate-ascension.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/project-dragon-gate-ascension.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/project-dragon-gate-ascension.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/project-longines.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/project-longines.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/project-longines.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/project-longines.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/project-mido-koi.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/project-mido-koi.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/project-mido-koi.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/project-mido-koi.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/project-panerai.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/project-panerai.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/project-panerai.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/project-panerai.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/project-roger-dubuis.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/project-roger-dubuis.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/project-roger-dubuis.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/project-roger-dubuis.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/project-rolex-sea-dweller.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/project-rolex-sea-dweller.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/project-rolex-sea-dweller.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/project-rolex-sea-dweller.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/project-seiko-brightz-ananta.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/project-seiko-brightz-ananta.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/project-seiko-brightz-ananta.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/project-seiko-brightz-ananta.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/project-tudor-koi.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/project-tudor-koi.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/project-tudor-koi.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/project-tudor-koi.html"/>
-  </url>
-  <url>
-    <loc>https://mr-nine-engraving.com/zh/about.html</loc>
-    <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/about.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/about.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/about.html"/>
-  </url>
-  <url>
-    <loc>https://mr-nine-engraving.com/zh/commission.html</loc>
-    <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/commission.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/commission.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/commission.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/zh/index.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/index.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/index.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/index.html"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mr-nine-engraving.com/zh/about.html</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mr-nine-engraving.com/zh/commission.html</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/zh/portfolio.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/portfolio.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/portfolio.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/portfolio.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/zh/project-bell-and-rose.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/project-bell-and-rose.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/project-bell-and-rose.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/project-bell-and-rose.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/zh/project-breitling-cloud.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/project-breitling-cloud.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/project-breitling-cloud.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/project-breitling-cloud.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/zh/project-daytona.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/project-daytona.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/project-daytona.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/project-daytona.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/zh/project-dragon-gate-ascension.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/project-dragon-gate-ascension.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/project-dragon-gate-ascension.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/project-dragon-gate-ascension.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/zh/project-longines.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/project-longines.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/project-longines.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/project-longines.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/zh/project-mido-koi.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/project-mido-koi.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/project-mido-koi.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/project-mido-koi.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/zh/project-panerai.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/project-panerai.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/project-panerai.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/project-panerai.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/zh/project-roger-dubuis.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/project-roger-dubuis.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/project-roger-dubuis.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/project-roger-dubuis.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/zh/project-rolex-sea-dweller.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/project-rolex-sea-dweller.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/project-rolex-sea-dweller.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/project-rolex-sea-dweller.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/zh/project-seiko-brightz-ananta.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/project-seiko-brightz-ananta.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/project-seiko-brightz-ananta.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/project-seiko-brightz-ananta.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mr-nine-engraving.com/zh/project-tudor-koi.html</loc>
     <lastmod>2026-07-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mr-nine-engraving.com/project-tudor-koi.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mr-nine-engraving.com/zh/project-tudor-koi.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mr-nine-engraving.com/project-tudor-koi.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
