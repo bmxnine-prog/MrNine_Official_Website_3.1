@@ -18,6 +18,10 @@
 
 .site-footer a{transition:color .2s ease}.site-footer a:hover{color:var(--text)}
 .site-header .brand-name{font-size:13px}
+.project-page .site-header .brand::after{content:"MR. NINE ENGRAVING";font-size:13px;letter-spacing:.23em;font-weight:600;white-space:nowrap}
+.project-bottom-nav{display:flex;align-items:center;justify-content:center;gap:clamp(28px,5vw,72px);padding-block:24px;border-top:1px solid var(--line)}
+.project-bottom-nav a{color:var(--gold);font-size:12px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;transition:color .2s}
+.project-bottom-nav a:hover{color:var(--text)}
 .principles span{font-size:18px}
 .site-footer>div:first-child>p{max-width:340px;margin:0;line-height:1.8}
 .footer-links a{width:max-content}
