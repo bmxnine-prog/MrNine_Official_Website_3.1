@@ -423,4 +423,10 @@ html[lang="zh-Hant"] .page-hero>.page-title{font-family:"Noto Serif TC","Songti 
   .project-gallery-nav a span{
     display:inline;
   }
+  .project-lightbox-arrow{
+    display:none;
+  }
+  .project-lightbox-figure{
+    touch-action:pan-y;
+  }
 }
