@@ -399,3 +399,28 @@ html[lang="zh-Hant"] .page-hero>.page-title{font-family:"Noto Serif TC","Songti 
 .project-showcase-media img[src*="roger-dubuis"]{object-position:center;transform:scale(.9)}
 .project-showcase-media img[src*="/bb58/"]{object-position:center top;transform:translateY(-3%) scale(.9);transform-origin:left top}
 .project-showcase-media img[src*="/rolex-Sea-Dweller/"]{transform:translateY(12%) scale(.9)}
+
+/* Keep project navigation below the thumbnail strip on phones */
+@media(max-width:650px){
+  .project-page.has-project-showcase>main{
+    grid-template-rows:minmax(0,1fr) clamp(92px,16svh,126px) 46px;
+  }
+  .project-gallery-nav{
+    position:static;
+    grid-row:3;
+    width:100%;
+    height:46px;
+    padding:4px 12px;
+    border-top:1px solid var(--line);
+    background:var(--bg);
+    pointer-events:auto;
+  }
+  .project-gallery-nav a{
+    width:auto;
+    min-height:36px;
+    padding:0 12px;
+  }
+  .project-gallery-nav a span{
+    display:inline;
+  }
+}
