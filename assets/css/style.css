@@ -18,28 +18,6 @@
 
 .site-footer a{transition:color .2s ease}.site-footer a:hover{color:var(--text)}
 .site-header .brand-name{font-size:13px}
-.project-bottom-nav{display:flex;align-items:center;justify-content:center;gap:clamp(28px,5vw,72px);padding-block:24px;border-top:1px solid var(--line)}
-.project-bottom-nav a{color:var(--gold);font-size:12px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;transition:color .2s}
-.project-bottom-nav a:hover{color:var(--text)}
-.lightbox-open{overflow:hidden}
-.portfolio-lightbox{position:fixed;inset:0;z-index:100}
-.portfolio-lightbox[hidden]{display:none}
-.lightbox-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.92);backdrop-filter:blur(10px)}
-.lightbox-dialog{position:absolute;inset:clamp(18px,4vw,56px);display:grid;grid-template-columns:28px minmax(0,min(78vw,1180px)) 28px;align-items:center;justify-content:center;column-gap:0}
-.lightbox-dialog figure{display:grid;height:100%;grid-template-rows:minmax(0,1fr) auto;margin:0;overflow:hidden}
-.lightbox-dialog img{width:100%;height:100%;object-fit:contain;user-select:none}
-.lightbox-dialog figcaption{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-top:14px;color:var(--muted);font-size:12px;letter-spacing:.08em}
-.lightbox-dialog figcaption strong{color:var(--text);font-weight:500}
-.lightbox-close,.lightbox-arrow{border:0;background:none;color:var(--text);cursor:pointer}
-.lightbox-close{position:absolute;top:0;right:0;z-index:2;width:44px;height:44px;font-size:34px;font-weight:300;line-height:1}
-.lightbox-arrow{position:relative;z-index:2;display:grid;width:48px;height:72px;place-items:center;padding:0;font-size:0;opacity:.78;transition:opacity .2s,color .2s}
-.lightbox-arrow::before{content:"";display:block;width:0;height:0;border-top:10px solid transparent;border-bottom:10px solid transparent}
-.lightbox-prev{justify-self:end}
-.lightbox-next{justify-self:start}
-.lightbox-prev::before{border-right:14px solid currentColor}
-.lightbox-next::before{border-left:14px solid currentColor}
-.lightbox-arrow:hover{color:var(--gold);opacity:1}
-@media(max-width:700px){.lightbox-dialog{inset:14px;grid-template-columns:24px minmax(0,1fr) 24px}.lightbox-arrow{width:44px;height:68px}.lightbox-dialog figcaption{padding:10px 4px 0}.lightbox-close{top:2px;right:2px;background:rgba(0,0,0,.45)}}
 .principles span{font-size:18px}
 .site-footer>div:first-child>p{max-width:340px;margin:0;line-height:1.8}
 .footer-links a{width:max-content}
@@ -359,3 +337,59 @@ html[lang="zh-Hant"] .page-hero>.page-title{font-family:"Noto Serif TC","Songti 
     margin:0;
   }
 }
+/* Standalone project showcase */
+.project-page.has-project-showcase>main>.project-hero,
+.project-page.has-project-showcase>main>.project-cover,
+.project-page.has-project-showcase>main>.editorial-grid,
+.project-page.has-project-showcase>main>.project-details,
+.project-page.has-project-showcase>main>.next-project{display:none}
+.project-showcase{position:relative;min-height:100svh;display:flex;align-items:stretch;overflow:hidden;background:#080808}
+.project-showcase-media{position:absolute;inset:0;margin:0}
+.project-showcase-media img{width:100%;height:100%;object-fit:cover;object-position:center;transform:scale(1.1);filter:grayscale(.42) brightness(.58) saturate(.72)}
+.project-showcase::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,8,8,.18) 0,rgba(8,8,8,.34) 48%,rgba(8,8,8,.84) 100%),linear-gradient(0deg,rgba(8,8,8,.55),transparent 45%)}
+.project-showcase-panel{position:relative;z-index:1;width:min(560px,44vw);height:100svh;margin-left:auto;padding:clamp(96px,12vh,120px) var(--gutter) clamp(80px,10vh,100px);display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden;background:linear-gradient(90deg,transparent,rgba(8,8,8,.28))}
+.project-showcase-field{padding:22px 0;border-top:1px solid rgba(255,255,255,.22)}
+.project-showcase-field:last-child{border-bottom:1px solid rgba(255,255,255,.22)}
+.project-showcase-label{display:block;margin-bottom:10px;color:var(--gold);font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase}
+.project-showcase-value{margin:0;color:var(--text);font:500 clamp(22px,2.2vw,34px)/1.25 var(--serif)}
+.project-showcase-description{max-height:min(28vh,260px);margin:0;padding-right:12px;overflow-y:auto;overscroll-behavior:contain;color:#d1ccc4;font-size:15px;line-height:1.8;white-space:pre-line;scrollbar-width:thin;scrollbar-color:var(--gold) rgba(255,255,255,.1)}
+.project-showcase-description::-webkit-scrollbar{width:4px}.project-showcase-description::-webkit-scrollbar-track{background:rgba(255,255,255,.1)}.project-showcase-description::-webkit-scrollbar-thumb{background:var(--gold)}
+.project-page .gallery{position:relative;z-index:3;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;padding:18px var(--gutter) 14px;max-width:var(--max);margin:-72px auto 0;background:linear-gradient(180deg,rgba(8,8,8,.25),var(--bg) 72px)}
+.project-page .gallery img,
+.project-page .gallery img:first-child,
+.project-page .daytona-gallery img,
+.project-page .roger-gallery img:not(:first-child){grid-column:auto;width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;cursor:zoom-in;filter:brightness(.82) saturate(.78);transition:filter .25s,transform .25s}
+.project-page .gallery img:hover{filter:brightness(1) saturate(.95);transform:scale(1.015)}
+.project-page .gallery .project-cover-thumbnail{object-fit:contain;background:var(--surface);filter:brightness(.9) saturate(.78)}
+.project-lightbox{position:fixed;inset:0;z-index:100;display:grid;place-items:center;padding:clamp(18px,4vw,56px)}
+.project-lightbox[hidden]{display:none}
+.project-lightbox-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.94);backdrop-filter:blur(10px)}
+.project-lightbox-figure{position:relative;z-index:1;width:min(1180px,86vw);height:min(84vh,900px);margin:0}
+.project-lightbox-image{width:100%;height:100%;object-fit:contain}
+.project-lightbox-close,.project-lightbox-arrow{position:absolute;z-index:2;border:0;background:rgba(8,8,8,.52);color:var(--text);cursor:pointer}
+.project-lightbox-close{top:20px;right:20px;width:48px;height:48px;font-size:32px;line-height:1}
+.project-lightbox-arrow{top:50%;width:50px;height:72px;margin-top:-36px;font-size:26px}
+.project-lightbox-prev{left:20px}.project-lightbox-next{right:20px}
+.project-lightbox-counter{position:absolute;z-index:2;right:24px;bottom:18px;color:#c5bfb5;font-size:12px;letter-spacing:.16em}
+.project-lightbox-open{overflow:hidden}
+.project-page .site-footer{display:block;min-height:0;padding:8px var(--gutter)}
+.project-page .site-footer>div:first-child{display:none}
+.project-page .site-footer>p:last-child{position:static;margin:0;text-align:center;font-size:11px;line-height:1.5}
+@media(max-width:900px){.project-showcase-panel{width:min(620px,70vw)}.project-page .gallery{grid-template-columns:repeat(4,minmax(0,1fr));margin-top:-54px}}
+@media(max-width:650px){.project-showcase{min-height:100svh;align-items:flex-end}.project-showcase-media img{object-position:center;transform:scale(1.06)}.project-showcase::after{background:linear-gradient(0deg,rgba(8,8,8,.96) 0,rgba(8,8,8,.62) 48%,rgba(8,8,8,.18) 100%)}.project-showcase-panel{width:100%;height:100svh;padding:112px 24px 82px;background:none}.project-showcase-field{padding:12px 0}.project-showcase-value{font-size:22px}.project-showcase-description{max-height:26vh;font-size:13px;line-height:1.6}.project-page .gallery{grid-template-columns:repeat(3,minmax(0,1fr));margin-top:-48px;padding:12px 12px 8px;gap:7px;background:linear-gradient(180deg,rgba(8,8,8,.35),var(--bg) 48px)}.project-lightbox{padding:12px}.project-lightbox-figure{width:100%;height:82vh}.project-lightbox-arrow{width:42px;height:62px}.project-lightbox-prev{left:8px}.project-lightbox-next{right:8px}.project-lightbox-close{top:10px;right:10px}.project-page .site-footer{padding:7px 12px}}
+
+/* Fit the complete project composition within one viewport */
+.project-page.has-project-showcase{height:100svh;overflow:hidden}
+.project-page.has-project-showcase>main{display:grid;height:calc(100svh - 32px);grid-template-rows:minmax(0,1fr) clamp(104px,18svh,168px);overflow:hidden}
+.project-page.has-project-showcase .project-showcase{min-height:0;height:100%;overflow:hidden}
+.project-page.has-project-showcase .project-showcase-panel{height:100%;padding-top:clamp(86px,10vh,108px);padding-bottom:clamp(20px,4vh,42px)}
+.project-page.has-project-showcase .gallery{display:grid;width:100%;height:100%;max-width:none;margin:0;padding:8px var(--gutter);grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:clamp(88px,12vw,164px);gap:8px;overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain;background:var(--bg);scrollbar-width:thin;scrollbar-color:var(--gold) rgba(255,255,255,.1)}
+.project-page.has-project-showcase .gallery::-webkit-scrollbar{height:4px}.project-page.has-project-showcase .gallery::-webkit-scrollbar-track{background:rgba(255,255,255,.1)}.project-page.has-project-showcase .gallery::-webkit-scrollbar-thumb{background:var(--gold)}
+.project-page.has-project-showcase .gallery img,
+.project-page.has-project-showcase .gallery img:first-child{width:100%;height:100%;aspect-ratio:auto;object-fit:cover}
+.project-page.has-project-showcase .gallery .project-cover-thumbnail{object-fit:contain}
+.project-page.has-project-showcase .site-footer{height:32px;padding:7px var(--gutter)}
+@media(max-width:650px){.project-page.has-project-showcase>main{height:calc(100svh - 29px);grid-template-rows:minmax(0,1fr) clamp(92px,16svh,126px)}.project-page.has-project-showcase .project-showcase-panel{height:100%;padding:78px 20px 16px}.project-page.has-project-showcase .project-showcase-field{padding:8px 0}.project-page.has-project-showcase .project-showcase-value{font-size:19px}.project-page.has-project-showcase .project-showcase-description{max-height:18vh;font-size:12px;line-height:1.5}.project-page.has-project-showcase .gallery{margin:0;padding:6px 8px;grid-template-columns:none;grid-auto-columns:clamp(78px,27vw,112px);gap:6px;background:var(--bg)}.project-page.has-project-showcase .site-footer{height:29px;padding:6px 8px}}
+
+/* Roger Dubuis cover uses the full image width without additional zoom */
+.project-showcase-media img[src*="roger-dubuis"]{object-position:center;transform:none}
