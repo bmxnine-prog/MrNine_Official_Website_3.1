@@ -165,7 +165,8 @@
 .featured-image img{height:100%;filter:brightness(.8) saturate(.78);transition:transform .7s ease,filter .5s ease}
 .featured-card:hover .featured-image img{transform:scale(1.025);filter:brightness(.95) saturate(.9)}
 .featured-card-copy{position:relative;padding:24px 0 8px;border-top:1px solid var(--line);margin-top:18px}
-.featured-card-copy h3{margin:0;font-size:15px;line-height:1.4;font-weight:600}
+.featured-card-copy h3{margin:0;font-size:15px;line-height:1.4;font-weight:600;transition:color .3s}
+.featured-card:hover .featured-card-copy h3{color:var(--gold)}
 .featured-card-copy p{margin:12px 0 0;color:var(--muted);font-size:14px;line-height:1.6}
 .featured-card-copy span{position:absolute;top:24px;right:0;color:var(--gold);font-size:9px;letter-spacing:.16em;text-transform:uppercase;opacity:0;transform:translateX(-8px);transition:.3s}
 .featured-card:hover .featured-card-copy span{opacity:1;transform:none}
@@ -352,6 +353,7 @@ html[lang="zh-Hant"] .page-hero>.page-title{font-family:"Noto Serif TC","Songti 
 .project-showcase-field:last-child{border-bottom:1px solid rgba(255,255,255,.22)}
 .project-showcase-label{display:block;margin-bottom:10px;color:var(--gold);font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase}
 .project-showcase-value{margin:0;color:var(--text);font:500 clamp(22px,2.2vw,34px)/1.25 var(--serif)}
+.project-showcase-story-title{margin:0 0 14px;color:var(--gold);font:500 clamp(28px,2.6vw,40px)/1.2 var(--serif)}
 .project-showcase-description{max-height:min(28vh,260px);margin:0;padding-right:12px;overflow-y:auto;overscroll-behavior:contain;color:#d1ccc4;font-size:15px;line-height:1.8;white-space:pre-line;scrollbar-width:thin;scrollbar-color:var(--gold) rgba(255,255,255,.1)}
 .project-showcase-description::-webkit-scrollbar{width:4px}.project-showcase-description::-webkit-scrollbar-track{background:rgba(255,255,255,.1)}.project-showcase-description::-webkit-scrollbar-thumb{background:var(--gold)}
 .project-page .gallery{position:relative;z-index:3;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;padding:18px var(--gutter) 14px;max-width:var(--max);margin:-72px auto 0;background:linear-gradient(180deg,rgba(8,8,8,.25),var(--bg) 72px)}
