@@ -437,6 +437,6 @@ html[lang="zh-Hant"] .page-hero>.page-title{font-family:"Noto Serif TC","Songti 
     display:none;
   }
   .project-lightbox-figure{
-    touch-action:pan-y;
+    touch-action:none;
   }
 }
