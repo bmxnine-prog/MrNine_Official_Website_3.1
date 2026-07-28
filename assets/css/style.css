@@ -399,7 +399,8 @@ html[lang="zh-Hant"] .page-hero>.page-title{font-family:"Noto Serif TC","Songti 
 
 /* Roger Dubuis cover uses the full image width without additional zoom */
 .project-showcase-media img[src*="roger-dubuis"]{object-position:center;transform:scale(.9)}
-.project-showcase-media img[src*="/bb58/"]{object-position:center top;transform:translateY(-3%) scale(.9);transform-origin:left top}
+.project-showcase-media:has(img[src*="/bb58/"]){left:5%}
+.project-showcase-media img[src*="/bb58/"]{object-position:55% center;transform:translateY(-5%) scale(1);transform-origin:left center}
 .project-showcase-media img[src*="/rolex-Sea-Dweller/"]{transform:translateY(12%) scale(.9)}
 
 /* Keep project navigation below the thumbnail strip on phones */
